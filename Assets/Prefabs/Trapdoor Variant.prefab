@@ -7,6 +7,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1351905227294725497, guid: b75a4a7f5207e4d4c8e5d2865f528c85,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72337290f907aa14f80854ace4e0b53f, type: 2}
+    - target: {fileID: 1351905228056386033, guid: b75a4a7f5207e4d4c8e5d2865f528c85,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72337290f907aa14f80854ace4e0b53f, type: 2}
     - target: {fileID: 1351905228056386034, guid: b75a4a7f5207e4d4c8e5d2865f528c85,
         type: 3}
       propertyPath: m_UseLimits
@@ -25,7 +35,7 @@ PrefabInstance:
     - target: {fileID: 1351905228290870960, guid: b75a4a7f5207e4d4c8e5d2865f528c85,
         type: 3}
       propertyPath: m_Name
-      value: Trapdoor (1)
+      value: Trapdoor Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1351905228290870961, guid: b75a4a7f5207e4d4c8e5d2865f528c85,
         type: 3}
