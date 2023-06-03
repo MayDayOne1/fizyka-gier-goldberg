@@ -18,7 +18,8 @@ public class ActivateHammer : MonoBehaviour
             Sparks.SetActive(true);
             // Debug.Log("triggered!");
             var limits = HammerHolder.limits;
-            limits.max = 90f;
+            limits.min = -90f;
+            limits.max = 0f;
             HammerHolder.limits = limits;
         }
     }
