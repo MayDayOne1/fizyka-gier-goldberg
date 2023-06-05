@@ -16,6 +16,7 @@ public class ActivateCar : MonoBehaviour
             force.z = velocity;
             constantForce.relativeForce = force;
             rb.constraints = RigidbodyConstraints.FreezePosition;
+            rb.freezeRotation = true;
         }
     }
 }
