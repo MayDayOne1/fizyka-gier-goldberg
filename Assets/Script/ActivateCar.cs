@@ -5,13 +5,14 @@ using UnityEngine;
 public class ActivateCar : MonoBehaviour
 {
     public ConstantForce constantForce;
+    public float velocity = 5f;
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag.Equals("CarActivator"))
         {
             Debug.Log("Engine start!");
             var force = constantForce.relativeForce;
-            force.z = 1f;
+            force.z = velocity;
             constantForce.relativeForce = force;
         }
     }

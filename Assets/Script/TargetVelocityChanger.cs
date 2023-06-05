@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class TargetVelocityChanger : MonoBehaviour
 {
-
-    //JointMotor jm = GetComponent<HingeJoint>().motor;
-    //jm.targetVelocity *= -1;
-    //GetComponent<HingeJoint>().motor = jm;
-
     public HingeJoint Joint;
+    // public ConstantForce constantForce;
 
     private void Update()
     {
@@ -18,6 +14,10 @@ public class TargetVelocityChanger : MonoBehaviour
             var motor1 = Joint.motor;
             motor1.targetVelocity *= -1;
             Joint.motor = motor1;
+
+            //var force = constantForce.relativeForce;
+            //force.z = 5f;
+            //constantForce.relativeForce = force;
         }
     }
 
